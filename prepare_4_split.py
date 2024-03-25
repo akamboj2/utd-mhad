@@ -7,7 +7,8 @@ import numpy as np
 
 modality = "Both" #"Inertial"  or "RGB"
 label_category = "Both" # "PID" or "Action"
-base_dir = f"./{modality}_splits/both_42.5_42.5_5_10_#1"
+# base_dir = f"./{modality}_splits/both_42.5_42.5_5_10_#1"
+base_dir = f"./{modality}_splits/both_40_40_10_10_#1"
 if not os.path.exists(base_dir):
     os.makedirs(base_dir)
 
